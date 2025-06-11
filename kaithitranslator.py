@@ -20,7 +20,8 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.vectorstores import FAISS  # Optional, in case you need for retrieval
 
 # ✅ Set up your Google Gemini API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA68faIW7NMuwOnvXzQPcisiIez6Qlmn2E"
+os.environ["GOOGLE_API_KEY"] = "AIzaSy************"
+
 
 # ✅ Load CSV File
 file_path = '/content/eng_hin_kaithi.csv'
